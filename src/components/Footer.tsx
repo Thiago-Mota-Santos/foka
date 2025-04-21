@@ -69,8 +69,17 @@ export function Footer() {
         </div>
         <div className="mt-8 border-t pt-8 text-center text-sm text-muted-foreground">
           <p>
-            © {new Date().getFullYear()} Foka Refrigeração. Todos os direitos
-            reservados.
+            © Copyright Foka Refrigeração {new Date().getFullYear()}, todos os
+            direitos reservados. Veja nossas{' '}
+            <Link href="/privacidade" className="hover:text-primary">
+              Política de Privacidade
+            </Link>{' '}
+            e
+            <Link href="/cookies" className="hover:text-primary">
+              {' '}
+              Política de Cookies
+            </Link>
+            .
           </p>
         </div>
       </div>
