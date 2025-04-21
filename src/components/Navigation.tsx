@@ -18,7 +18,10 @@ export function Navigation() {
           />
         </Link>
         <nav className="hidden md:flex gap-6">
-          <Link href="/" className="text-sm text-black font-medium hover:text-primary">
+          <Link
+            href="/"
+            className="text-sm text-black font-medium hover:text-primary"
+          >
             Home
           </Link>
           <Link
